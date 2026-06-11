@@ -1,4 +1,4 @@
-# 📊 Análise de Desempenho e Indicadores Socioeducativos do ENEM na Região Nordeste
+# Análise de Desempenho e Indicadores Socioeducativos do ENEM na Região Nordeste
 
 ## 👥 Integrantes
 - Rogeane Alves Bezerra
@@ -8,6 +8,7 @@
 **Instituição:** Faculdade Princesa do Oeste – FPO  
 **Curso:** Tecnologia em Análise e Desenvolvimento de Sistemas  
 **Disciplina:** Tratamento e Análise de Dados  
+**Professor:** Adeilson Sales Aragão
 
 ---
 
@@ -19,27 +20,31 @@ O objetivo é identificar padrões socioeducativos, comparar o desempenho entre 
 
 ---
 
-🗂️ Estrutura do Repositório
+## 🗂️ Estrutura do Repositório
 
+```
 dashboard-enem-nordeste/
 ├── scripts/
 │   └── webscraping.py              # Script de coleta de dados do portal INEP
 ├── apresentacao/
 │   └── pitch_deck.pdf              # Apresentação em formato pitch
 └── README.md
+```
 
+> ⚠️ Os arquivos de dados e o dashboard (.pbix) não estão no repositório pois ultrapassam o limite de tamanho do GitHub (100MB). Acesse pelo link abaixo:
 
-⚠️ Os arquivos de dados e o dashboard (.pbix) não estão no repositório pois ultrapassam o limite de tamanho do GitHub (100MB). Acesse pelo link abaixo:
+---
 
-📁 Arquivos no Google Drive
+## 📁 Arquivos no Google Drive
 
-🔗 Acessar todos os arquivos do projeto no Google Drive
+🔗 [Acessar todos os arquivos do projeto no Google Drive](https://drive.google.com/drive/folders/1epfSySUw6gT0PwcBiTN5a5w7l08uUGsp?usp=sharing)
 
 O Drive contém:
+- `dataset_original.csv` — Dados brutos extraídos do INEP
+- `dataset_tratado.csv` — Dados tratados e filtrados para o Nordeste
+- `projeto_final.pbix` — Dashboard interativo no Power BI
 
-dataset_original.csv — Dados brutos extraídos do INEP
-dataset_tratado.csv — Dados tratados e filtrados para o Nordeste
-projeto_final.pbix — Dashboard interativo no Power BI
+---
 
 ## 📥 Fontes de Dados
 
@@ -54,28 +59,10 @@ projeto_final.pbix — Dashboard interativo no Power BI
 ## 🖥️ Como Abrir o Dashboard
 
 1. Instale o **Power BI Desktop** (gratuito): https://powerbi.microsoft.com/pt-br/desktop/
-2. Baixe o arquivo `dashboard/projeto_final.pbix`
+2. Baixe o arquivo `projeto_final.pbix` pelo link do Google Drive acima
 3. Abra o Power BI Desktop
 4. Vá em **Arquivo → Abrir** e selecione o arquivo `.pbix`
 5. O dashboard possui 3 páginas navegáveis: **Visão Geral**, **Análise Geográfica** e **Análise Detalhada**
-
----
-
-## 📸 Principais Visuais
-
-### Página 1 — Visão Geral
-- KPIs: Total de Inscritos (4 milhões), Média Nota Redação (624,59), Percentual de Presença (100%)
-- Evolução da média de redação por ano
-- Total de inscritos por estado
-
-### Página 2 — Análise Geográfica
-- Mapa coroplético com IDH por estado
-- Mapa de bolhas com distribuição geográfica dos inscritos
-
-### Página 3 — Análise Detalhada
-- Tabela de detalhamento por estado
-- Gráfico de dispersão: relação entre IDH e total de inscritos
-- Top 3 estados com maior IDH e Bottom 3 com menor IDH
 
 ---
 
@@ -87,3 +74,4 @@ projeto_final.pbix — Dashboard interativo no Power BI
 4. O **percentual de presença na redação foi de 100%** entre os inscritos analisados
 5. A distribuição geográfica mostra **maior concentração de inscritos nos estados litorâneos** do Nordeste
 6. Estados com maior IDH tendem a apresentar melhores indicadores educacionais, evidenciando a relação entre desenvolvimento humano e desempenho no ENEM
+
