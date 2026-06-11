@@ -35,8 +35,6 @@ dashboard-enem-nordeste/
 └── README.md
 ```
 
----
-
 ## 📥 Fontes de Dados
 
 - **INEP — Microdados do ENEM 2024**  
