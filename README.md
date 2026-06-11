@@ -1,6 +1,6 @@
 # Análise de Desempenho e Indicadores Socioeducativos do ENEM na Região Nordeste
 
-## 👥 Integrantes
+## Integrantes
 - Rogeane Alves Bezerra
 - Heitor Alves Cavalcante
 - Miguel Pereira de Sousa Neto
@@ -12,7 +12,7 @@
 
 ---
 
-## 📌 Descrição do Tema e Objetivo
+## Descrição do Tema e Objetivo
 
 Este projeto analisa o desempenho dos participantes do ENEM 2024 nos nove estados da Região Nordeste do Brasil, cruzando indicadores de desempenho escolar com o Índice de Desenvolvimento Humano (IDH) de cada estado.
 
@@ -46,7 +46,7 @@ O Drive contém:
 
 ---
 
-## 📥 Fontes de Dados
+## Fontes de Dados
 
 - **INEP — Microdados do ENEM 2024**  
   Disponível em: https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem
@@ -56,7 +56,7 @@ O Drive contém:
 
 ---
 
-## 🖥️ Como Abrir o Dashboard
+## Como Abrir o Dashboard
 
 1. Instale o **Power BI Desktop** (gratuito): https://powerbi.microsoft.com/pt-br/desktop/
 2. Baixe o arquivo `projeto_final.pbix` pelo link do Google Drive acima
