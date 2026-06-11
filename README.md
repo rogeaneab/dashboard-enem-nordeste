@@ -19,21 +19,27 @@ O objetivo é identificar padrões socioeducativos, comparar o desempenho entre 
 
 ---
 
-## 🗂️ Estrutura do Repositório
+🗂️ Estrutura do Repositório
 
-```
 dashboard-enem-nordeste/
-├── dados/
-│   ├── dataset_original.csv        # Dados brutos extraídos do INEP
-│   └── dataset_tratado.csv         # Dados tratados e filtrados para o Nordeste
 ├── scripts/
 │   └── webscraping.py              # Script de coleta de dados do portal INEP
-├── dashboard/
-│   └── projeto_final.pbix          # Dashboard interativo no Power BI
 ├── apresentacao/
 │   └── pitch_deck.pdf              # Apresentação em formato pitch
 └── README.md
-```
+
+
+⚠️ Os arquivos de dados e o dashboard (.pbix) não estão no repositório pois ultrapassam o limite de tamanho do GitHub (100MB). Acesse pelo link abaixo:
+
+📁 Arquivos no Google Drive
+
+🔗 Acessar todos os arquivos do projeto no Google Drive
+
+O Drive contém:
+
+dataset_original.csv — Dados brutos extraídos do INEP
+dataset_tratado.csv — Dados tratados e filtrados para o Nordeste
+projeto_final.pbix — Dashboard interativo no Power BI
 
 ## 📥 Fontes de Dados
 
