@@ -65,6 +65,23 @@ O Drive contém:
 5. O dashboard possui 3 páginas navegáveis: **Visão Geral**, **Análise Geográfica** e **Análise Detalhada**
 
 ---
+## 📸 Principais Visuais
+
+### Página 1 — Visão Geral
+- KPIs: Total de Inscritos (4 milhões), Média Nota Redação (624,59), Percentual de Presença (100%)
+- Evolução da média de redação por ano
+- Total de inscritos por estado
+
+### Página 2 — Análise Geográfica
+- Mapa coroplético com IDH por estado
+- Mapa de bolhas com distribuição geográfica dos inscritos
+
+### Página 3 — Análise Detalhada
+- Tabela de detalhamento por estado
+- Gráfico de dispersão: relação entre IDH e total de inscritos
+- Top 3 estados com maior IDH e Bottom 3 com menor IDH
+
+---
 
 ## 💡 Principais Insights Encontrados
 
